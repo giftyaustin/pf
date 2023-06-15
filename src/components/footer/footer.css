@@ -1,0 +1,49 @@
+.contact-item{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+   font-size: small;
+   margin-top: 10px;
+}
+.Footer-bg{
+    background-color: rgba(180, 180, 180, 0.267);
+}
+.footer-h{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.c-email-message-h{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    font-size: small;
+    padding: 5px;
+}
+.c-message-inp{
+    width: 100%;
+   resize: none;
+   font-size: small;
+   font-weight: bold;
+}
+.contact-send-btn{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 0 10px 0 10px;
+    border-radius: 6px;
+    font-size: small;
+    height: 30px;
+}
+.contact-send-btn:hover{
+    transition: 0.1s;
+    background-color: rgba(209, 209, 209, 0.288);
+}
+.send-a-message{
+    font-size: small;
+}
+.c-message-inp , .c-email-inp{
+    background-color: rgba(255, 255, 255, 0.808);
+    border: 0;
+    outline: none;
+}

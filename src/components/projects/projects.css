@@ -1,0 +1,11 @@
+.projects-h{
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 0 10px 0 10px;
+}
+.project-link{
+    text-decoration: underline;
+    padding-left: 10%;
+    
+}

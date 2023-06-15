@@ -1,0 +1,25 @@
+.hire-inp{
+    margin-bottom: 10px;
+    outline: none;
+    color: rgb(199, 199, 199);
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.795);
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    
+}
+.hiredev-btn{
+    background-color: transparent;
+    border: 1px solid rgba(156, 156, 156, 0.774);
+    border-radius: 6px;
+    padding: 5px 15px 5px 15px;
+    
+}
+.hiredev-btn:hover{
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.151);
+    color: white;
+}
+.hiredev-email-inp{
+    resize: none;
+}

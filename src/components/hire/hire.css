@@ -1,0 +1,17 @@
+.hire-btn{
+    background-color: transparent;
+    height: 30px;
+    padding: 2px 15px 2px 15px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    color: rgba(224, 224, 224, 0.856);
+}
+.hire-btn:hover{
+    transition: 0.5s;
+    
+    background-color: rgba(221, 221, 221, 0.438);
+}
+.hire-btn-h{
+    margin: 10px 0 10px 0;
+    
+}

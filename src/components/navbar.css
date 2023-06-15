@@ -1,0 +1,44 @@
+
+
+.nav-item-h{
+
+align-items: center;
+justify-content: end;
+padding: 0;
+width: 50%;
+justify-content: space-evenly;
+
+}
+.nav-h{
+   justify-content: end;
+    height: 60px;
+    background: linear-gradient(0.5turn, rgb(152, 0, 0), black);
+   
+}
+
+.nav-item{
+   position: relative;
+   
+}
+.nav-item:before{
+    position: absolute;
+    bottom: 0%;
+    content: "";
+    height: 2px;
+    background-color: rgba(130, 130, 130, 0.649);
+    width: 0;
+    border-radius: 6px;
+    
+   
+}
+
+.nav-item:hover::before{
+    width: 100%;
+    transition: 0.7s;
+}
+
+.nav-item:hover{
+    transition: 0.9s;
+    color: white;
+    
+}
