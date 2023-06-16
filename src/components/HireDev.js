@@ -1,7 +1,7 @@
 import React from 'react'
 import './hiredev.css'
 import { useState } from 'react'
-import nodemailer from "nodemailer"
+
 const HireDev = () => {
   return (
     
