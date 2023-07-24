@@ -1,33 +1,53 @@
-:root{
-    --unit:1rem;
-}
+
 
 .name{
-    font-family: 'Russo One', sans-serif;
-    font-size: calc(var(--unit)*4);
+    font-family: var(--russo);
+    font-size:  clamp(1rem, 10vw,5rem);
+    color: var(--white);
+}
+.gifty{
+    display: inline-block;
 }
 .austin{
-    position: relative;
+    /* position: relative; */
+    display: inline-block;
     color: rgb(152, 0, 0);
+    animation: austin 5s steps(6);
+    overflow: hidden;  
+}
+
+@keyframes austin {
+    0%{
+       width: 0%; 
+    }
+    100%{
+        width: auto;
+    }
     
 }
 
 .Intro{
-    margin-top: 15rem;
+  padding-top: 100px;
 }
 
 .bio{
     user-select:text;
+    margin-top: 20px;
+    font-size: clamp(0.8rem, 4vw, 0.9rem);
    
 }
 .intro-h{
-    width: 70%;
-    padding-left: 10%;
+ max-width: 900px;
+    padding-left:clamp(5px, 5%, 50px)
 }
 
 .beyond-tb{
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: medium;
+    font-family: var(--mont);
+    font-weight: 600;
+    color: var(--darkGrey);
+
 }
 
 .v-line{
@@ -39,6 +59,11 @@
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 
+}
+
+.mp,.ve,.pg,.fb{
+    font-family: var(--russo);
+    color: var(--darkGrey);
 }
 @keyframes v-line {
     0%{

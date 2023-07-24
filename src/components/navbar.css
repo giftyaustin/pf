@@ -1,15 +1,20 @@
+.Navbar{
+    position: fixed;
+    top: 0;
+left: 0;
+width: 100%;
 
+}
 
 .nav-item-h{
 
 align-items: center;
-justify-content: end;
-padding: 0;
-width: 50%;
+padding-right: clamp(0px, 1vw, 20px );
 justify-content: space-evenly;
 
 }
 .nav-h{
+   
    justify-content: end;
     height: 60px;
     background: linear-gradient(0.5turn, rgb(152, 0, 0), black);
@@ -17,7 +22,14 @@ justify-content: space-evenly;
 }
 
 .nav-item{
+    font-family:  var(--mont);
    position: relative;
+   padding-top: 0 ;
+   padding-bottom: 0 ;
+   /* margin-left: clamp(1px, 5%, 20px); */
+   margin-right: clamp(5px, 5vw, 30px);
+   cursor: pointer;
+   font-size: clamp(10px, 100%, 20px);
    
 }
 .nav-item:before{
@@ -28,6 +40,7 @@ justify-content: space-evenly;
     background-color: rgba(130, 130, 130, 0.649);
     width: 0;
     border-radius: 6px;
+    
     
    
 }

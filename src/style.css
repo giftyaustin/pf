@@ -1,6 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --roboto: 'Roboto', sans-serif;
+    --mont: 'Montserrat', sans-serif;
+    --russo: 'Russo One', sans-serif;
+    --manrope: 'Manrope', sans-serif;
+    --red: #f70000;
+    --background: #131313;
+    --black: #000000;
+    --white:#e6e6e5;
+    --grey: #a7a7a7;
+    --darkGrey:#7d7c7c;
 }
 .t{
     height: 100px;

@@ -3,7 +3,7 @@ import './navbar.css'
 
 const Navbar = () => {
   return (
-    <div  className='Navbar d-block'>
+    <div  className='Navbar'>
       
             <div className="nav-h  d-flex align-items-center">
                 

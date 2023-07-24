@@ -1,18 +1,15 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./intro.css";
 
 const Intro = () => {
-  const arr = [1,2,3]
-  const passionRef = useRef()
-
  
 
   return (
     <div className="Intro">
       <div className="intro-h">
         <div className="name-h">
-          <div className="name">
-            GIFTY <span className="name austin">AUSTIN</span>{" "}
+          <div className="name ">
+           <div className="name gifty"> GIFTY </div><div className="name austin"> AUSTIN</div>
           </div>
         </div>
         <div className="bio">
